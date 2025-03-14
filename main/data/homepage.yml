@@ -1,0 +1,149 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Ming."
+  subtitle: "Aspiring IT Professional"
+  #description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  description: "A technology enthusiast with a passion for working with servers and building my own homelab. I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: '<a href="mailto:mingsoonang@gmail.com"></a>'
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/mingsoonang/"
+
+    - icon: "WhatsApp"
+      URL: "https://api.whatsapp.com/send?phone=60128380283"
+
+    - icon: "github"
+      URL: "https://github.com/Ming-A"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/mingsoonang/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am an IT professional with a foundation in networking, server management, and IT infrastructure 
+    operations. Currently, I work as an IT Infrastructure Operation Engineer at Huawei Technology (Malaysia), 
+    managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
+    </p>
+    <p class="lead">
+    My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
+    in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/mingsoonang/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Sunway University + Lancaster University"
+      year: "2021-2024"
+      degree: "BSc (Hons) Information Technology (Computer Networking and Security)"
+
+    - university: "Taylor's College"
+      year: "2019-2020"
+      degree: "Foundation in Computing"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Recent fresh grad with 3 years of experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1377QPW9b5pBqItxatZpcU75LtinWawkW/view?usp=sharing"
+
+  items:
+    - title: "IT Infrastructure Operation Engineer"
+      company: "Huawei"
+      duration: "Apr 2024 - Present"
+
+    - title: "Networking and IT Intern"
+      company: "Huawei"
+      duration: "Jan 2024 - Apr 2024"
+
+    - title: "Technical Support Specialist"
+      company: "Freelance"
+      duration: "Jan 2022 - Jan 2024"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "Radity Finance - UI Kit [TEMP from template]"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website [TEMP from template]"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor [TEMP from template]"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+60 (12) 838 0283"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mingsoonang@gmail.com">mingsoonang@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
