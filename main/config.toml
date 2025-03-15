@@ -75,11 +75,12 @@ theme = "raditian-free-hugo-theme"
         _2x = "img/general/design-and-code-radity@2x.png"
         alt = "Design & Code - Radity"
 
-deployment:
-  targets:
-    name = S3 www.mingshome.xyz
+[deployment]
+  [[deployment.targets]]
+    name = "S3 www.mingshome.xyz"
     URL = "s3://www.mingshome.xyz?region=ap-southeast-1"
-  matchers:
-    - pattern = "^.+\\.(png|jpg|webp)$"
-      cacheControl = "max-age=86400"
-      gzip = false
+
+  [[deployment.matchers]]
+    pattern = "^.+\\.(png|jpg|webp)$"
+    cacheControl = "max-age=86400"
+    gzip = false
