@@ -16,8 +16,6 @@ jobs:
     permissions: # for aws creds
       id-token: write
       contents: read
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:
