@@ -38,20 +38,20 @@ links:
 about:
   enable: true
   title: "Who am I?"
-content: >
+  content: >
     <p class="lead">
-    I am an IT professional with a foundation in networking, server management, and IT infrastructure 
-    operations. Currently, I work as an IT Infrastructure Operation Engineer at Huawei Technology (Malaysia), 
-    managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
-    </p>
-    <p class="lead">
-    My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
-    in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
+      HI am an IT professional with a foundation in networking, server management, and IT infrastructure 
+      operations. Currently, I work as an IT Infrastructure Operation Engineer at Huawei Technology (Malaysia), 
+      managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
+      </p>
+      <p class="lead">
+      My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
+      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
     </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/in/mingsoonang/"
+    URL: "https://www.linkedin.com/in/cwbdk/"
   image:
     x: "images/who-am-i/user-picture.png"
     _2x: "images/who-am-i/user-picture@2x.png"
