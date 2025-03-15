@@ -1,39 +1,45 @@
+# page title
+head:
+  title: "Ming Soon Ang"
+  description: "Software Engineer improving maintainability in Dataland"
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Ming."
+  title: "Hi, I'm Ming"
   subtitle: "Aspiring IT Professional"
-  #description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
-  description: "A technology enthusiast with a passion for working with servers and building my own homelab. I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.</a>."
+  description: >
+    A technology enthusiast with a passion for working with servers and building my own homelab. I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "images/me_500x.jpg"
+    _2x: "images/me_500x.jpg"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "images/me_500x.jpg"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: '<a href="mailto:mingsoonang@gmail.com"></a>'
+    URL: "mingsoonang@gmail.com"
 
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/mingsoonang/"
 
-    - icon: "WhatsApp"
-      URL: "https://api.whatsapp.com/send?phone=60128380283"
-
-    - icon: "github"
-      URL: "https://github.com/Ming-A"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/mingsoonang/"
+links:
+  links:
+  - icon: "linkedin"
+    label: "Linkedin"
+    URL: "https://www.linkedin.com/in/mingsoonang/"
+  - icon: "github"
+    label: "Github"
+    URL: "https://github.com/Ming-A"
+  - label: "WhatsApp"
+    URL: "https://api.whatsapp.com/send?phone=60128380283"
+  - label: "Instagram"
+    URL: "https://www.instagram.com/mingsoonang"
 
 # about
 about:
   enable: true
   title: "Who am I?"
-  content: '<p class="lead">
+content: >
+    <p class="lead">
     I am an IT professional with a foundation in networking, server management, and IT infrastructure 
     operations. Currently, I work as an IT Infrastructure Operation Engineer at Huawei Technology (Malaysia), 
     managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
@@ -47,8 +53,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/mingsoonang/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
 
 # education
 education:
@@ -58,7 +64,6 @@ education:
     - university: "Sunway University + Lancaster University"
       year: "2021-2024"
       degree: "BSc (Hons) Information Technology (Computer Networking and Security)"
-
     - university: "Taylor's College"
       year: "2019-2020"
       degree: "Foundation in Computing"
@@ -67,83 +72,117 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "Recent fresh grad with 3 years of experience."
+  description: >
+    Recent fresh grad with 3 years of experience.
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/mingsoonang/"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
+    btnText: "Download Resume"
     URL: "https://drive.google.com/file/d/1377QPW9b5pBqItxatZpcU75LtinWawkW/view?usp=sharing"
+#  button3:
+#    icon: "icon-arrow-right"
+#    btnText: "See all experiences"
+#    URL: "/experience"
 
-  items:
-    - title: "IT Infrastructure Operation Engineer"
-      company: "Huawei"
-      duration: "Apr 2024 - Present"
-
-    - title: "Networking and IT Intern"
-      company: "Huawei"
-      duration: "Jan 2024 - Apr 2024"
-
-    - title: "Technical Support Specialist"
-      company: "Freelance"
-      duration: "Jan 2022 - Jan 2024"
 
 # Client & Work
 client_and_work:
   title: "Projects"
   enable: true
 
+  clients:
+    - logo:
+        x: "images/clients/asgardia.png"
+        _2x: "images/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "images/clients/earth-2.png"
+        _2x: "images/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "images/clients/goldline.png"
+        _2x: "images/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "images/clients/kanba.png"
+        _2x: "images/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "images/clients/zoo-tv.png"
+        _2x: "images/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "images/clients/ztos.png"
+        _2x: "images/clients/ztos@2x.png"
+      alt: "Ztos"
+
   works:
-    - title: "Radity Finance - UI Kit [TEMP from template]"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Homelab"
+      description: "A test production environment for me to test, learn and improve my skills on services."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/homelab.png"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "image/works/homelab.png"
+        _2x: "image/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website [TEMP from template]"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Smart Homes/Offices"
+      description: "Automating daily tasks to bring convinence to people at their home or offices. Picture beside is a trial test for face detection."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/smarthome.png"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "image/works/smarthome.png"
+        _2x: "image/works/swissfintech@2x.jpg"
       is_even: false
 
-    - title: "Robo Advisor [TEMP from template]"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+# testimonial
+testimonial:
+  enable: False
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
 
 # contact
 contact:
   enable: true
   title: "Contact"
-  form:
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+60 (12) 838 0283"
+    number: "+60 12 838 0283"
   email:
     title: "Email"
     email: '<a href="mailto:mingsoonang@gmail.com">mingsoonang@gmail.com</a>'
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
+  address:
+    title: "Location"
+    address: "Cheras, Kuala Lumpur"

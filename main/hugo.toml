@@ -1,0 +1,62 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/rad-icons.css"
+[[params.plugins.css]]
+URL = "css/custom.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/rad-animations.js"
+[[params.plugins.js]]
+URL = "js/sticky-header.js"
+[[params.plugins.js]]
+URL = "js/library/fontfaceobserver.js"
+
+# navigation
+[menu]
+
+[[menu.header]]
+URL = "#experience"
+name = "experiences"
+weight = 2
+
+[[menu.header]]
+URL = "#contact"
+name = "Contact"
+weight = 4
+
+[params]
+
+sections = ["showcase", "links", "experience", "education", "contact"]
+
+homepageExperienceCount = 4
+
+[params.logo]
+text1 = "Ming "
+text2 = "Soon Ang"
+
+[params.footer]
+copyright = "© Ming Soon Ang. Free Hugo theme by Adrián Moreno Peña."
+[params.footer.radity_logo]
+_2x = "img/general/design-and-code-radity@2x.png"
+alt = "Design & Code - Radity"
+x = "img/general/design-and-code-radity.png"
+
+[deployment]
+  [[deployment.targets]]
+    name = "S3 www.mingshome.xyz"
+    URL = "s3://www.mingshome.xyz?region=ap-southeast-1"
+
+  [[deployment.matchers]]
+    pattern = "^.+\\.(png|jpg|webp)$"
+    cacheControl = "max-age=86400"
+    gzip = false
