@@ -1,7 +1,7 @@
 # page title
-head:
-  title: "Ming Soon Ang"
-  description: "Software Engineer improving maintainability in Dataland"
+#head:
+#  title: "Ming Soon Ang"
+#  description: "Software Engineer improving maintainability in Dataland"
 # showcase
 showcase:
   enable: true
