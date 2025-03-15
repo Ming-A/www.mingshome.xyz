@@ -5,7 +5,7 @@
 # showcase
 showcase:
   enable: true
-  title: "Hi, I'm Ming"
+  title: "Hello, I'm Ming"
   subtitle: "Aspiring IT Professional"
   description: >
     A technology enthusiast with a passion for working with servers and building my own homelab. I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.
@@ -73,7 +73,12 @@ experience:
   enable: true
   title: "Experience"
   description: >
-    Recent fresh grad with 3 years of experience.
+      An IT professional with a foundation in networking, server management, and IT infrastructure 
+      operations. Currently, I work as an IT Infrastructure Operation Engineer at Huawei Technology (Malaysia), 
+      managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
+
+      My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
+      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -86,8 +91,6 @@ experience:
 #    icon: "icon-arrow-right"
 #    btnText: "See all experiences"
 #    URL: "/experience"
-
-
 
 # Client & Work
 client_and_work:
