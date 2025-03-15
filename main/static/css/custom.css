@@ -1,5 +1,6 @@
 /* You can customize theme styles here */
 
 body {
-    background-color: #404045;
+    background-color: #1e1d20;
+    color: #dadadb; /* Change the default text color to #c1c8db */
 }
