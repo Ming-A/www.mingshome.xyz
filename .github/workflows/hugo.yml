@@ -30,6 +30,9 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
+      - name: Install PostCSS
+        run: npm install postcss postcss-cli autoprefixer cssnano --save-dev
+
       - name: Build
         run: hugo
 
