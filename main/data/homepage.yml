@@ -71,7 +71,7 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/mingsoonang/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
@@ -103,7 +103,7 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
+        x: "img/works/homelab.png"
         _2x: "img/works/radity-finance@2x.jpg"
       is_even: true
 
@@ -114,7 +114,7 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
+        x: "img/works/smarthome.png"
         _2x: "img/works/swissfintech@2x.jpg"
       is_even: false
 
