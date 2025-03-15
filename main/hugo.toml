@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
+themesDir = "../themes"
+theme = "adritian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
