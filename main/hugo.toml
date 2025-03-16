@@ -50,7 +50,7 @@ name = "experiences"
 weight = 2
 
 [[menu.header]]
-URL = "#client-and-work"
+URL = "#projects"
 name = "Projects"
 weight = 3
 
