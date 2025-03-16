@@ -7,4 +7,5 @@ type: 'blog'
 
 This Page is still in progress, need more time to work on this website 😢
 
-![image](images/blog/catto.jpg)
+![image](images/catto.jpg)
+![image](images/works/homelab.png)
