@@ -36,7 +36,7 @@ links:
 
 # about
 about:
-  enable: true
+  enable: false
   title: "Who am I?"
   content: >
     <p class="lead">
@@ -46,7 +46,8 @@ about:
       </p>
       <p class="lead">
       My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
-      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
+      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional.
+      
     </p>
   button:
     icon: "icon-smile-fill"
@@ -78,7 +79,8 @@ experience:
       managing Full Fiber Campus solutions, regional IT projects, and ensuring seamless operations across the Asia Pacific region. 
 
       My role involves incident management, vendor coordination, and providing level 1 and 2 technical support. I have a strong interest 
-      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional. 
+      in infra and always willing to upskill my self, aiming to help organizations maintain their infrastructure while continuously growing as a professional.
+
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -97,85 +99,26 @@ client_and_work:
   title: "Projects"
   enable: true
 
-  clients:
-    - logo:
-        x: "images/clients/asgardia.png"
-        _2x: "images/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "images/clients/earth-2.png"
-        _2x: "images/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "images/clients/goldline.png"
-        _2x: "images/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "images/clients/kanba.png"
-        _2x: "images/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "images/clients/zoo-tv.png"
-        _2x: "images/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "images/clients/ztos.png"
-        _2x: "images/clients/ztos@2x.png"
-      alt: "Ztos"
-
   works:
     - title: "Homelab"
       description: "A test production environment for me to test, learn and improve my skills on services."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+      #button:
+        #icon: "icon-arrow-right"
+        #btnText: "Case Study"
+        #URL: "#"
       image:
         x: "image/works/homelab.png"
-        _2x: "image/works/radity-finance@2x.jpg"
       is_even: true
 
     - title: "Smart Homes/Offices"
       description: "Automating daily tasks to bring convinence to people at their home or offices. Picture beside is a trial test for face detection."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+      #button:
+        #icon: "icon-arrow-right"
+        #btnText: "Case Study"
+        #URL: "#"
       image:
         x: "image/works/smarthome.png"
-        _2x: "image/works/swissfintech@2x.jpg"
       is_even: false
-
-# testimonial
-testimonial:
-  enable: False
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "images/testimonials/daniel-jordan.jpg"
-        _2x: "images/testimonials/daniel-jordan@2x.jpg"
-
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "images/testimonials/jonathan-peters.jpg"
-        _2x: "images/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "images/testimonials/antonio-willis.jpg"
-        _2x: "images/testimonials/antonio-willis@2x.jpg"
 
 # contact
 contact:

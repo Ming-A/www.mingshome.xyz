@@ -22,6 +22,25 @@ URL = "js/sticky-header.js"
 [[params.plugins.js]]
 URL = "js/library/fontfaceobserver.js"
 
+[module]
+# The following mounts are required for the theme to be able to load bootstrap
+# Remember also to copy the theme's `package.json` to your site, and run `npm install`
+[[module.mounts]]
+source = "node_modules/bootstrap/scss"
+target = "assets/scss/bootstrap"
+
+[[module.mounts]]
+source = "node_modules/bootstrap/dist/js"
+target = "assets/js/bootstrap"
+
+[[module.mounts]]
+source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+target = "assets/js/vendor/bootstrap.bundle.min.js"
+
+[[module.mounts]]
+source = "node_modules/bootstrap-print-css/css/bootstrap-print.css"
+target = "assets/css/bootstrap-print.css"
+
 # navigation
 [menu]
 
@@ -31,13 +50,18 @@ name = "experiences"
 weight = 2
 
 [[menu.header]]
+URL = "#client-and-work"
+name = "Projects"
+weight = 3
+
+[[menu.header]]
 URL = "#contact"
 name = "Contact"
 weight = 4
 
 [params]
 
-sections = ["showcase", "links", "experience", "education", "contact"]
+sections = ["showcase", "links", "education", "experience", "client-and-work", "contact"]
 
 homepageExperienceCount = 4
 
