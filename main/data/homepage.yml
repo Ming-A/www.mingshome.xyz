@@ -107,8 +107,8 @@ client_and_work:
         #btnText: "Case Study"
         #URL: "#"
       image:
-        x: "image/works/homelab.png"
-        _2x: "image/works/homelab.png"
+        x: "images/works/homelab.png"
+        _2x: "images/works/homelab.png"
       is_even: true
 
     - title: "Smart Homes/Offices"
@@ -118,8 +118,8 @@ client_and_work:
         #btnText: "Case Study"
         #URL: "#"
       image:
-        x: "image/works/smarthome.png"
-        _2x: "image/works/smarthome.png"
+        x: "images/works/smarthome.png"
+        _2x: "images/works/smarthome.png"
       is_even: false
 
 contact:
