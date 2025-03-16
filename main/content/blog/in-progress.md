@@ -7,3 +7,5 @@ type = 'blog'
 +++
 
 This Page is still in progress, need more time to work on this website 😢
+
+![Example image](/image/blog/catto.jpg)
