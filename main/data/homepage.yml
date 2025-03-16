@@ -113,7 +113,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "More Info"
-        URL: "/blog/in-progress"
+        URL: "/blog/inprogress"
       image:
         x: "images/works/homelab.png"
         _2x: "images/works/homelab.png"
@@ -124,7 +124,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "More Info"
-        URL: "/blog/in-progress"
+        URL: "/blog/inprogress"
       image:
         x: "images/works/smarthome.png"
         _2x: "images/works/smarthome.png"
