@@ -1,5 +1,5 @@
 +++
-title = 'Page Still In Progress'
+title = 'Page still in progress'
 date = 2025-05-15T14:38:33+08:00
 draft = false
 type = 'blog'
