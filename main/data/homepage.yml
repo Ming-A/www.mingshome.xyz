@@ -99,6 +99,8 @@ client_and_work:
   title: "Projects"
   enable: true
 
+  clients: []
+
   works:
     - title: "Homelab"
       description: "A test production environment for me to test, learn and improve my skills on services."
