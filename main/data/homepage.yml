@@ -8,7 +8,10 @@ showcase:
   title: "Hello, I'm Ming"
   subtitle: "Aspiring IT Professional"
   description: >
-    A technology enthusiast with a passion for working with servers and building my own homelab. I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.
+    A technology enthusiast with a passion for working with servers and building my own homelab. 
+    I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.
+
+
   image:
     x: "images/me_500x.jpg"
     _2x: "images/me_500x.jpg"
@@ -104,10 +107,10 @@ client_and_work:
   works:
     - title: "Homelab"
       description: "A test production environment for me to test, learn and improve my skills on services."
-      #button:
-        #icon: "icon-arrow-right"
-        #btnText: "Case Study"
-        #URL: "#"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More Info"
+        URL: "/projects/in progress"
       image:
         x: "images/works/homelab.png"
         _2x: "images/works/homelab.png"
@@ -115,10 +118,10 @@ client_and_work:
 
     - title: "Smart Homes/Offices"
       description: "Automating daily tasks to bring convinence to people at their home or offices. Picture beside is a trial test for face detection."
-      #button:
-        #icon: "icon-arrow-right"
-        #btnText: "Case Study"
-        #URL: "#"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More Info"
+        URL: "/projects/in progress"
       image:
         x: "images/works/smarthome.png"
         _2x: "images/works/smarthome.png"
