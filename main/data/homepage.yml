@@ -108,6 +108,7 @@ client_and_work:
         #URL: "#"
       image:
         x: "image/works/homelab.png"
+        _2x: "image/works/homelab.png"
       is_even: true
 
     - title: "Smart Homes/Offices"
@@ -118,9 +119,9 @@ client_and_work:
         #URL: "#"
       image:
         x: "image/works/smarthome.png"
+        _2x: "image/works/smarthome.png"
       is_even: false
 
-# contact
 contact:
   enable: true
   title: "Contact"
