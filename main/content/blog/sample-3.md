@@ -6,6 +6,8 @@ type = 'blog'
 +++
 
 Sample blog content. Like a lorem ipsum but saying something more interesting.
+This Page is still in progress, need more time to work on this website 😢
+
 
 ![Example image](/img/blog/feature-sample-3.png)
 
