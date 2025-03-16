@@ -10,8 +10,8 @@ showcase:
   description: >
     A technology enthusiast with a passion for working with servers and building my own homelab. 
     I love to tinker and explore new technologies, and am always looking for ways to improve my skills and knowledge in the field.
-
-
+   
+   
   image:
     x: "images/me_500x.jpg"
     _2x: "images/me_500x.jpg"
@@ -21,7 +21,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "mingsoonang@gmail.com"
+    URL: "mailto:mingsoonang@gmail.com"
 
 
 links:
