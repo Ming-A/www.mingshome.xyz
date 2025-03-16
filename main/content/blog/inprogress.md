@@ -9,4 +9,3 @@ tags:
 
 This Page is still in progress, need more time to work on this website 😢
 
-![image](images/blog/catto.jpg)
